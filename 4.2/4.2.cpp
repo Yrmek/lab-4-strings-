@@ -34,6 +34,7 @@ int main()
         case 'D': strcat_s(bin_digit,"1101"); break;
         case 'E': strcat_s(bin_digit,"1110"); break;
         case 'F': strcat_s(bin_digit,"1111"); break;
+        case ',': strcat_s(bin_digit, ","); break;
         default:
             cout << "Ошибка: некорректный символ в шестнадцатеричном числе" << endl;
             return 0;
